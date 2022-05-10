@@ -22,8 +22,9 @@ allprojects {
     group = "com.lightningkite.ktorbatteries"
     repositories {
         mavenLocal()
-        mavenCentral()
         maven(url = "https://s01.oss.sonatype.org/content/repositories/snapshots/")
+        maven(url = "https://s01.oss.sonatype.org/content/repositories/releases/")
+        mavenCentral()
     }
 }
 tasks.create("clean", Delete::class.java) {
