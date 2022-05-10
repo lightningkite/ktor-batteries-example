@@ -1,0 +1,28 @@
+general:
+  projectName: "My Project"
+  host: "0.0.0.0"
+  port: 8080
+  publicUrl: "http://0.0.0.0:8080"
+  debug: false
+  cors: null
+auth:
+  authDomain: null
+  jwtAudience: "user"
+  jwtIssuer: "http://0.0.0.0:8080"
+  jwtRealm: "ServerAccess"
+  jwtExpirationMilliseconds: 31536000000
+  jwtSecret: "^/PrN;`qv7r0<Xbex}.qW+@OT=S)/PN7/9JsqeR;'<z@IqkY(e}h=5W8/C{xD*Oz"
+files:
+  storageUrl: "s3://AKIA5GXOGORFTVKPCPMB:mBhD3pH2PgtR46Ic67HdQadW2Cw9CWYkAE8o2kX0@joseph-ivie-test-bucket.s3-us-west-2.amazonaws.com"
+  userContentPath: "/user-content"
+  signedUrlExpirationSeconds: 120000
+logging:
+  default:
+    filePattern: null
+    toConsole: true
+    level: "VERBOSE"
+    additive: false
+  logger: null
+mongo:
+  url: "file:///home/jivie/Projects/ktor-batteries/./local/mongo"
+  databaseName: "default"

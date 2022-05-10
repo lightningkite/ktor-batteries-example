@@ -1,0 +1,14 @@
+### Login
+POST http://localhost:8080/auth/login-email
+Content-Type: text/plain
+
+joseph@lightningkite.com
+
+
+### Get List
+GET http://localhost:8080/test-model/rest
+Accept: application/json
+
+### Get Specific
+GET http://localhost:8080/test-model/rest
+Accept: application/json
